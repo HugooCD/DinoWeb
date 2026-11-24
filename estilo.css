@@ -1,5 +1,12 @@
+#portada {
+    min-height: 100vh;
+    background-image: url("R.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body {
-    background-image: url("OIP.webp");
-    height:auto;
-    width:200% ;
+    background-color: antiquewhite;
+    margin: 5%;
 }
