@@ -1,4 +1,5 @@
 #portada {
+    display: flow-root;
     min-height: 100vh;
     background-image: url("fondo.jpg");
     background-position: center;
@@ -7,12 +8,11 @@
 }
 
 body {
-    background-color: antiquewhite;
-    margin: 5%;
+    margin: 0;
 }
 
 #primera_lina{
    border: none;
-  height: 10px;
-  background-color: #099ee4;
+   height: 10px;
+   background-color: #099ee4;
 }
