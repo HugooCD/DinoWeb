@@ -1,3 +1,5 @@
-#portada {
-    background-image: url("fondo.jpg");
+body {
+    background-image: url("OIP.webp");
+    height:auto;
+    width:200% ;
 }
