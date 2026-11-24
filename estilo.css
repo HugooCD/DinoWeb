@@ -9,6 +9,15 @@
 
 body {
     margin: 0;
+    background-color: bisque;
+}
+
+#cuerpo {
+    margin: 30px;
+    background-image: url(OIP.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3px;
 }
 
 .primera_lina{
@@ -21,4 +30,9 @@ h1 {
     text-align: center;
     font-family:sans-serif;
     text-shadow: 2px 2px 2px;
+    color: white;
+}
+
+p {
+    color: white;
 }
