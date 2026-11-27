@@ -9,15 +9,14 @@
 
 body {
     margin: 0;
-    background-color: bisque;
+    background-color: rgb(255, 218, 172);
 }
 
 #cuerpo {
     margin: 30px;
-    background-image: url(OIP.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(134, 134, 134);
     padding: 3px;
+    box-shadow: 5px 3px 3px;
 }
 
 .primera_lina{
@@ -29,10 +28,15 @@ body {
 h1 {
     text-align: center;
     font-family:sans-serif;
-    text-shadow: 2px 2px 2px;
+    text-shadow: 2px 2px 2px black;
     color: white;
 }
 
 p {
     color: white;
 }
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
