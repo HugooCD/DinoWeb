@@ -6,10 +6,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #transicion {
-    height: 100px; 
-    margin-top: -50px;     
-    backdrop-filter: blur(2px); 
+    height: 100px;
+    margin-top: -50px;
+    backdrop-filter: blur(2px);
 }
 
 body {
@@ -17,37 +18,41 @@ body {
     background-color: rgb(255, 218, 172);
 }
 
-body::before{
-     content: ""; /*se obliga al renderizar*/
-    position: fixed;/*para que no se mueva*/
+body::before {
+    content: "";
+    position: fixed;
     inset: 0;
-    background-image: url(Fondo1.2.jpg);
+    background-image: url("Fondo1.2.jpg");
     background-size: cover;
     background-position: center;
     filter: blur(2px);
     z-index: -1;
 }
+
 #cuerpo {
     border-radius: 2%;
     margin: 30px;
-    text-align: 222225px;
     background-color: rgb(240, 64, 11);
-    padding: 3px;
-    box-shadow: 5px 3px 3px;
+    padding: 15px;
+    box-shadow: 5px 3px 3px black;
     outline: 6px solid rgb(0, 0, 0);
-    margin-top: 30px;
 }
 
-.primera_lina{
-   border: none;
-   height: 10px;
-   background-color: #099ee4;
+.primera_lina {
+    border: none;
+    height: 10px;
+    background-color: #099ee4;
 }
 
 h1 {
     text-align: center;
-    font-family:sans-serif;
+    font-family: sans-serif;
     text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
 
@@ -55,19 +60,40 @@ p {
     color: white;
 }
 
-
-.Pelicula{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    background-color: rgb(18, 236, 182) ;
-    text-align: center;  
+.titulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(169, 184, 180);
+    text-align: center;
+    font-style: italic;
+    border: 1px solid black;
+    padding: 8px;
+    text-shadow: 1px 1px 1px;
+    cursor: pointer;
 }
 
-#descripcion1{
-     text-align: 
+.peliculas {
+    background-color: red;
+    margin: 0 30px 10px 30px;
 }
 
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#descripcion1 {
+    text-align: center;
+    padding: 5px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
 
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+
+td {
+    height: 80px;
+}
